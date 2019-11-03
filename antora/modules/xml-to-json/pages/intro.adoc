@@ -1,6 +1,7 @@
 = XML to JSON
 :func-xml-to-json: https://www.w3.org/TR/xslt-30/#func-xml-to-json
 
+[abstract]
 `xml-to-json.xsl` is a library containing the `my:xml-to-json` function.
 
 == Stylesheet Parameters

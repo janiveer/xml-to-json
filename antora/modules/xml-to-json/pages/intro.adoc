@@ -1,0 +1,30 @@
+= XML to JSON
+:func-xml-to-json: https://www.w3.org/TR/xslt-30/#func-xml-to-json
+
+`xml-to-json.xsl` is a library containing the `my:xml-to-json` function.
+
+== Stylesheet Parameters
+eol::
+A string specifying the default line ending character(s).
+The default is `'&amp;#10;'`, i.e. line feed.
+
+tab::
+A string specifying the default space for each indent level.
+The default is `'  '`, i.e. two spaces.
+
+== xml-to-json
+
+Transforms XML to JSON.
+This is a partial implementation of the XSLT 3.0 `fn:xml-to-json` function, described here:
+
+{func-xml-to-json}
+
+=== Function Parameters
+
+input::
+An XML node representing the data structure to be converted to JSON.
+For details, refer to the {func-xml-to-json}[XSLT 3.0 spec].
+
+indent::
+A boolean indicating whether the JSON output should be indented.
+The default is `false`.  

@@ -1,1 +1,1 @@
-* xref:xml-to-json:intro.adoc[XML to JSON]
+* xref:1.0@xml-to-json:intro.adoc[XML to JSON]
